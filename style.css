@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a :hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+h3 {
+  font-weight: 800;
+  padding-bottom: 40px;
+}
+
+h1 {
+  letter-spacing: 5px;
+  font-size: large;
+}
+
+/* BAGIAN NAVBAR */
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /*Gantikan property display ke none */
+  display: none;
+}
+
+.navbar {
+  background-color: rgb(50, 50, 50);
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.navbar h1 {
+  margin: auto 0 auto 10px;
+}
+
+.dot {
+  color: rgb(255, 179, 80);
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  font-size: small;
+  font-weight: lighter;
+  margin: auto 0 auto 40px;
+}
+
+.menu li {
+  padding: 10px;
+}
+
+/* BAGIAN INTRO */
+.title {
+  color: rgb(50, 50, 50);
+  letter-spacing: 5px;
+  text-align: center;
+  padding: 50px 50px 0 50px;
+  font-size: 4em;
+  font-weight: 800;
+}
+
+/* .dot {
+  color: orange;
+  font-size: larges;
+} */
+
+.title-desc {
+  font-weight: 100;
+  text-align: center;
+  padding: 10px;
+}
+
+.intro img {
+  display: block;
+  text-align: center;
+  width: 13%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+
+/* BAGIAN TENTANG SAYA */
+.tentang-saya .container,
+.hubungi-saya .container {
+  background-color: rgb(226, 226, 226);
+  padding: 100px;
+  text-align: center;
+}
+
+/* BAGIAN PROYEK CONTOH */
+.proyek .container {
+  padding: 100px;
+  text-align: center;
+}
+
+.img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.proyek img {
+  margin: 0;
+  padding-bottom: 0;
+  width: 25%;
+}
+
+/* BAGIAN HUBUNGI SAYA */
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+}
+
+input {
+  border-width: 0;
+  outline: none;
+  border-radius: 10px;
+}
+
+input[type="text"] {
+  width: 70%;
+  margin: 30px auto;
+  margin-top: 0;
+}
+
+input[type="submit"] {
+  width: 35%;
+  padding: 20px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.email {
+  padding: 20px 0 20px 20px;
+}
+
+.message {
+  padding: 20px 0 45px 20px;
+}
+
+.kirim {
+  background-color: rgb(248, 234, 131);
+  font-size: large;
+}
+
+/* BAGIAN FOOTER */
+.footer .container {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(114, 114, 114);
+  color: #fff;
+}
+
+.footer h1 {
+  margin: 20px;
+}
+
+.list {
+  text-align: center;
+  margin-left: auto;
+  margin-right: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: small;
+  font-weight: lighter;
+}
+
+.footer li {
+  padding: 10px;
+}
