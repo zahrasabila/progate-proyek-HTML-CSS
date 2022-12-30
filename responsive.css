@@ -1,0 +1,98 @@
+@media (max-width: 1000px) {
+  .intro img {
+    width: 30%;
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+}
+
+@media (max-width: 670px) {
+  h3 {
+    padding-bottom: 30px;
+  }
+
+  /* BAGIAN NAVBAR */
+  .menu-icon {
+    display: block;
+    padding: 0;
+    margin-left: auto;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  /* BAGIAN INTRO */
+  .intro img {
+    width: 33%;
+    display: inline-block;
+    text-align: left;
+    margin: 0 35px;
+  }
+
+  .title {
+    text-align: start;
+    font-size: 3em;
+  }
+
+  .title-desc {
+    text-align: start;
+    padding: 10px 50px;
+    font-size: 1em;
+  }
+
+  /* BAGIAN TENTANG SAYA */
+  .tentang-saya .container,
+  .hubungi-saya .container {
+    text-align: left;
+    padding: 50px;
+  }
+
+  /* BAGIAN PROYEK */
+  .proyek .container {
+    padding: 50px;
+    padding-bottom: 20px;
+    text-align: left;
+  }
+  .img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .proyek img {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+
+  /* BAGIAN HUBUNGI SAYA */
+  form {
+    padding: 0;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    margin: 30px 0;
+    margin-top: 0;
+  }
+
+  input[type="submit"] {
+    width: 35%;
+    padding: 15px;
+    margin: 0;
+    cursor: pointer;
+  }
+
+  .email {
+    padding: 15px 0 15px 15px;
+  }
+
+  .message {
+    padding: 15px 0 50px 15px;
+  }
+
+  .kirim {
+    font-size: medium;
+  }
+}
